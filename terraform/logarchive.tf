@@ -17,7 +17,7 @@ module "logarchive" {
   }
 
   account_tags = {
-    "ABC:Owner"       = "owner@example.com"
+    "ABC:Owner"       = "owner1@example.com"
     "ABC:Environment" = "Prod"
     "ABC:Project"     = "LandingZone"
   }

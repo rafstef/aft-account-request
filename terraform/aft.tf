@@ -1,14 +1,14 @@
 # Copyright Amazon.com, Inc. or its affiliates. All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
 #
-module "logarchive" {
+module "aft" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail = "xxxxxxxx"
-    AccountName  = "logarchive"
+    AccountEmail = "aws-capgemini-aft@stefanile.com"
+    AccountName  = "aft"
     # Syntax for top-level OU
-    ManagedOrganizationalUnit = "Security"
+    ManagedOrganizationalUnit = "Aft"
     # Syntax for nested OU
     # ManagedOrganizationalUnit = "Sandbox (ou-xfe5-a8hb8ml8)"
     SSOUserEmail     = "do-not-use@example.com"
@@ -24,11 +24,11 @@ module "logarchive" {
 
   change_management_parameters = {
     change_requested_by = "John Doe"
-    change_reason       = "importing logarchive account"
+    change_reason       = "importing log archive account"
   }
 
   custom_fields = {
   }
 
-  account_customizations_name = "logarchive"
+  account_customizations_name = "aft"
 }

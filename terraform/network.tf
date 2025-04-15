@@ -10,7 +10,7 @@ module "network" {
     # Syntax for top-level OU
     # ManagedOrganizationalUnit = "Foundation"
     # Syntax for nested OU
-    ManagedOrganizationalUnit = "Infrastructure (ou-xxxxxxxx)"
+    ManagedOrganizationalUnit = "Infra"
     SSOUserEmail              = "do-not-use@example.com"
     SSOUserFirstName          = "do-not-use"
     SSOUserLastName           = "do-not-use"

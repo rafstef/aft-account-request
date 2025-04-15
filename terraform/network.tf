@@ -5,7 +5,7 @@ module "network" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail = "xxxxxxxxxx"
+    AccountEmail = "aws-capgemini-network@stefanile.com"
     AccountName  = "network"
     # Syntax for top-level OU
     # ManagedOrganizationalUnit = "Foundation"

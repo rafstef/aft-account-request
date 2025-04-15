@@ -6,7 +6,7 @@ module "management" {
 
   control_tower_parameters = {
     AccountEmail = "aws-capgemini@stefanile.com"
-    AccountName  = "management"
+    AccountName  = "aws-capgemini"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "Root"
     # Syntax for nested OU

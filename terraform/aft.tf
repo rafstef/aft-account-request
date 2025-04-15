@@ -8,7 +8,7 @@ module "aft" {
     AccountEmail = "aws-capgemini-aft@stefanile.com"
     AccountName  = "aft"
     # Syntax for top-level OU
-    ManagedOrganizationalUnit = "Aft"
+    ManagedOrganizationalUnit = "AFT"
     # Syntax for nested OU
     # ManagedOrganizationalUnit = "Sandbox (ou-xfe5-a8hb8ml8)"
     SSOUserEmail     = "do-not-use@example.com"

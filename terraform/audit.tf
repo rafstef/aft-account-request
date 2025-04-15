@@ -6,7 +6,7 @@ module "audit" {
 
   control_tower_parameters = {
     AccountEmail = "aws-capgemini-audit@stefanile.com"
-    AccountName  = "audit"
+    AccountName  = "Audit"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "Security"
     # Syntax for nested OU

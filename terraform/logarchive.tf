@@ -6,7 +6,7 @@ module "logarchive" {
 
   control_tower_parameters = {
     AccountEmail = "aws-capgemini-log@stefanile.com"
-    AccountName  = "logarchive"
+    AccountName  = "Log Archive"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "Security"
     # Syntax for nested OU
